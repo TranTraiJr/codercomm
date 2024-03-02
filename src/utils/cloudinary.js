@@ -16,6 +16,7 @@ export const cloudinaryUpload = async (image) => {
     const imageUrl = response.data.secure_url;
     return imageUrl;
   } catch (error) {
+    console.log(error);
     throw error;
   }
 };

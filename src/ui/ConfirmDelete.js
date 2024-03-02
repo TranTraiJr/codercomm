@@ -8,6 +8,7 @@ const Heading = styled.h3`
 `;
 
 const StyledConfirmDelete = styled.div`
+  padding: 2rem;
   width: 40rem;
   display: flex;
   flex-direction: column;
